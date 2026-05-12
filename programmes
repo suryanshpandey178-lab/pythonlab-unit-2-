@@ -1,0 +1,133 @@
+#numbers=[1,2,3,4,5]
+#squares=list(map(lambda x:x**2,numbers))
+#print("original list",numbers)
+#print("squares",squares)
+ 
+#import math
+#numbers=[1,2,3,4,5]
+#squareroot=list(map(lambda x: math.sqrt(x), numbers))
+#print("original list", numbers)
+#print("square roots", squareroot)  
+
+
+#numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+#evennumbers = list(filter(lambda x: x % 2 == 0, numbers))
+#print("Even Numbers:", evennumbers)
+#from functools import reduce
+
+
+#numbers = [1, 2, 3, 4, 5]
+#sumofnumbers = reduce(lambda x, y: x + y, numbers)
+#print("Sum:",sumofnumbers)
+
+
+#numbers = [1, 2, 3, 4, 5]
+#sumofnumbers = reduce(lambda x, y: x + y, numbers)
+#print("Sum:", sumofnumbers)
+
+
+#data = [(1, 3), (4, 1), (2, 2), (5, 0)]
+#sorted_data = sorted(data, key=lambda x: x[1])
+#print("Sorted Data:", sorted_data)
+
+#name = input("Enter student's name: ")
+#age = input("Enter student's age: ")
+#course = input("Enter student's course: ")
+#print("\n--- Student Details ---")
+#print(f"Name : {name}")
+#print(f"Age : {age}")
+#print(f"Course : {course}")
+
+
+#year = int(input("Enter a year: "))
+#if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#    print(f"{year} is a Leap Year")
+#else:
+#    print(f"{year} is Not a Leap Year")
+
+
+
+
+#num = int(input("Enter a number: "))
+#print(f"\nMultiplication Table of {num}:")
+#for i in range(1, 11):
+#    print(f"{num} x {i} = {num * i}")
+
+#
+# def find_gcd(a, b):
+#    while b != 0:
+#         a, b = b, a % b
+#    return a
+#num1 = int(input("Enter first number: "))
+#num2 = int(input("Enter second number: "))
+
+#gcd = find_gcd(num1, num2)
+#print(f"The GCD of {num1} and {num2} is {gcd}")
+
+#try:
+#    num1 = float(input("Enter first number: "))
+#    num2 = float(input("Enter second number: "))
+#    result = num1 / num2
+#except ValueError:
+#    print("Error: Invalid input! Please enter numeric values.")
+#except ZeroDivisionError:
+#    print("Error: Division by zero is not allowed.")
+#else:
+#    print(f"Result of division: {result}")
+#finally:
+#    print("Program execution completed.")
+
+#class Person:
+#    def __init__(self, name, age):
+#        self.name = name
+#        self.age = age
+#
+#    def display_person(self):
+#        print(f"Age: {self.age}")
+
+# Derived class (inherits from Person)
+#class Student(Person):
+#    def __init__(self, name, age, course):
+#         Calling the base class constructor
+#        super().__init__(name, age)
+#        self.course = course
+
+#    def display_student(self):
+#        self.display_person()
+#        print(f"Course: {self.course}")
+
+# Creating object of Student class
+#name = input("Enter name: ")
+#age = int(input("Enter age: "))
+#course = input("Enter course: ")
+#student = Student(name, age, course)
+# Display details
+#print("\n--- Student Details ---")
+#student.display_student()
+#s={1,2,3}
+#s.add(4)
+#s.update([5,6])
+#s.remove(3)
+#s.discard(10)
+#print(s)
+#t=(1,2,3)
+#print(t[-2])
+#num=(0,1,2,3,4,5,5)
+#print(num[1:7])
+#name=('a','a','a','b','f','g')
+#print(name.count('a'))
+#print(name.index('b'))
+
+#fruits=["apple","banana"]
+#print("apple"in fruits)
+#print("orange" in fruits)
+#print(len(num))
+#print(max(num))
+#print(min(num))
+#print(sum(num))
+#print(sorted(num))
+#num.append(4)
+#num.insert(0,0)
+#num.extend([5,6])
+#print(num)
+#book={"title":"Python Programming","author":"John Doe","year":2021}
