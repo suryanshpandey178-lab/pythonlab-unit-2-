@@ -1,0 +1,70 @@
+"""
+numbers = [10, 20, 30, 40]
+
+print("Original List:", numbers)
+
+numbers.append(50)
+print("After Append:", numbers)
+
+numbers.insert(2, 25)
+print("After Insert:", numbers)
+
+numbers.remove(30)
+print("After Remove:", numbers)
+
+print("Length of List:", len(numbers))
+
+print("List Elements:")
+for item in numbers:
+    print(item)
+ fruits = ("Apple", "Banana", "Mango", "Orange")
+
+print("Tuple Elements:", fruits)
+print("First Element:", fruits[0])
+print("Length of Tuple:", len(fruits))
+
+for item in fruits:
+    print(item)
+set1 = {10, 20, 30, 40}
+set2 = {30, 40, 50, 60}
+
+print("Union:", set1.union(set2))
+print("Intersection:", set1.intersection(set2))
+print("Difference:", set1.difference(set2))
+
+set1.add(70)
+print("Updated Set:", set1)
+student = {
+    "Name": "Priya",
+    "Age": 20,
+    "Department": "CSE"
+}
+
+print(student)
+
+student["Marks"] = 85
+
+for key, value in student.items():
+    print(key, ":", value)
+"""
+#Real World Example: Student Management System
+class Student:
+    def __init__(self, name, age, department):
+        self.name = name
+        self.age = age
+        self.department = department
+
+    def display_info(self):
+        print(f"Name: {self.name}")
+        print(f"Age: {self.age}")
+        print(f"Department: {self.department}")
+    
+
+#real world example: Tuple calendar
+calendar = ("January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December")
+
+print("Calendar Months:", calendar)
+#real world example: Set of unique student IDs
+student_ids = {101, 102, 103, 104, 105}         
+print("Unique Student IDs:", student_ids)
